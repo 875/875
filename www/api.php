@@ -4,11 +4,11 @@
   // Example php script for fetching data from mysql database
   //--------------------------------------------------------------------------
   $host = "localhost";
-  $user = "";
-  $pass = "";
+  $user = "root";
+  $pass = "282mysql";
 
-  $databaseName = "";
-  $tableName = "";
+  $databaseName = "timmies";
+  $tableName = "items";
 
   //--------------------------------------------------------------------------
   // 1) Connect to mysql database
