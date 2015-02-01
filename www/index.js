@@ -12,7 +12,7 @@ $(document).ready(function() {
         var price = parseFloat(item.price);
         var total = getTotal();
         if (total + price > 8.75) {
-            var warning = confirm("If you add this you will go over 8.75! OK to continue");
+            var warning = confirm("If you add this you will go over 8.75! Click 'OK' to continue");
             if (warning) {
                 selectedItems[selectedItems.length] = item;
             }
