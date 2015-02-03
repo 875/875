@@ -61,8 +61,6 @@ $(document).ready(function() {
     */
     $.ajax({
         url: 'api.php', //the script to call to get data          
-        data: "", //you can insert url argumnets here to pass to api.php
-        //for example "id=5&parent=6"
         dataType: 'json', //data format      
         success: function(json) //on recieve of reply
         {
